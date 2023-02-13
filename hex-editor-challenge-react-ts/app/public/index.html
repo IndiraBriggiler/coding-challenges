@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>React Challenge</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+  <title>React Challenge</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <video muted autoplay loop playsinline class="backgroundVideo" poster="assets/img/BGVideoPoster.png">
+    <source src="assets/dataFlow.webm" type="video/webm">
+  </video>
+  <section class="mainContainer">
+    <section class=" hexEditorContainer">
+      <div id="root" class="hexContainer"></div>
+    </section>
+  </section>
+  <footer>
+    <span>© 2022 fiskaly GmbH. All rights reserved.</span>
+  </footer>
+</body>
+
 </html>
